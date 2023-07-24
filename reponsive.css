@@ -1,0 +1,46 @@
+/* ipad */
+@media screen and (max-width:1024px){
+   
+    header .logo{
+        display: none;
+    }
+    header .navDiv li{
+        font-size: 20px;
+    } 
+    header  .info{
+        display: none;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .banner .content span{
+        font-size: 3rem;
+    }
+    .container{
+    }
+    .step-container .step{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .row{
+    }
+}
+/* phone */
+@media screen and (max-width:767px){
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .banner .content{
+        padding-top: 2rem;
+    }
+    .banner .imgage{
+        padding-top:70px;
+        grid-row-start: 1;
+    }
+    .product .box-product{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
